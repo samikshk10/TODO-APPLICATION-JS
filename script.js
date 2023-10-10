@@ -128,7 +128,7 @@ function deleteTodo(task) {
 
 
 
-createBtn.addEventListener('click', (e) => {
+createBtn.addEventListener('submit', (e) => {
     const inputval = input.value;
     if (inputval != '') {
         input.value = '';
